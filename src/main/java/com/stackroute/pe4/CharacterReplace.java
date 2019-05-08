@@ -21,10 +21,7 @@ public class CharacterReplace {
         System.out.println("Enter the characters to be replaced with");
         char char3=scan.nextLine().charAt(0);
         char char4=scan.nextLine().charAt(0);//Characters to be replaced with
-        //String word= "daily dry";
         System.out.println("Original String:"+word);
-        //for(int i=0;i<string.length();i++) {
-          //  if (string.charAt(i)=='d')
         System.out.print("String after replacing:");
         System.out.println(word.replace(char1,char3).replace(char2,char4));
     }

@@ -1,8 +1,6 @@
 //Program to transpose a given string
 package com.stackroute.pe4;
-
 import java.util.*;
-
 public class StringTranspose {
     Scanner scan;
     public static void main (String args[])

@@ -13,7 +13,6 @@ public class StringWordSort {
     }
     public void stringSort()
     {
-
         scan=new Scanner(System.in);
         String text;
         System.out.println("Enter the paragraph");
@@ -24,7 +23,5 @@ public class StringWordSort {
             Collections.sort(listname);//Sorts the string
         String liststring=String.join(" ",listname);//Converts list back to string
         System.out.println(liststring);
-
-
     }
 }
