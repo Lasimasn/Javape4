@@ -2,8 +2,10 @@
 
 
 #Folders
-*.out
-*..idea
+.idea
+
+#Files
+java pe4.iml
 ######################
 # Project Specific
 ######################
